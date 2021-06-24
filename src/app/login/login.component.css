@@ -1,0 +1,42 @@
+.bgimg
+{
+  background: url("/assets/login.jpg") center no-repeat fixed;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 150vh;
+  border-radius: 0px;  
+}
+#log
+{
+border: 0px solid white;
+  padding: 60px 40px;
+  margin-top:80px; 
+  -webkit-box-shadow: -8px 2px 127px 45px rgba(0,0,0,0.75);
+  -moz-box-shadow: -8px 2px 127px 45px rgba(0,0,0,0.75);
+  box-shadow: -8px 2px 127px 45px rgba(0,0,0,0.75);
+}
+img{
+  width: 120px;
+  height: 120px;
+  margin: auto;
+}
+h1{
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  margin-top: -20px;
+}
+label{
+  font-size: 15px;
+  color: white;
+}
+@media screen and (max-width: 750px){
+.mobcenter
+{
+  margin-left: 0px !important; 
+  text-align: center;
+  width: 100%;
+}
+}

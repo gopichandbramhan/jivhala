@@ -1,0 +1,13 @@
+.log
+{
+    padding: 5px;
+    margin: 0 auto;
+    display: block;
+}
+.log:hover
+{
+    width: 100px;
+    height: 30px;
+    background-color:red;
+    border: 1px solid red;
+}

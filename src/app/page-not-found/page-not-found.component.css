@@ -1,0 +1,9 @@
+.fffff
+{
+    font-size: 40px;
+    color: red;
+    animation-iteration-count: infinite;
+    -webkit-box-shadow: 15px 0px 12px 31px rgba(0,255,255,1);
+-moz-box-shadow: 15px 0px 12px 31px rgba(0,255,255,1);
+box-shadow: 15px 0px 12px 31px rgba(0,255,255,1);
+}

@@ -1,0 +1,11 @@
+table,th,td{
+    border: 2px solid gray;
+}
+th{
+    font-size: 20px;
+    color: gray;
+}
+table
+{
+    margin-left: 300px;
+}

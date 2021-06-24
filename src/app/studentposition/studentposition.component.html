@@ -1,0 +1,30 @@
+<h1 class="text-center text-uppercase font-weight-bold">{{title}}</h1>
+<div style="margin-left: 300px;margin-top: 20px">
+  Enter name:<input type="text" name="srch" [(ngModel)]="srch" placeholder="search">
+</div>
+
+<table style="margin-top: 30px">
+  <thead>
+    <tr>
+      <th>sr no</th>
+      <th>full name</th>
+      <th>email id</th>
+      <th>contact no</th>
+      <th>address</th>
+      <th>percentage</th>
+      </tr>
+  </thead>
+<tbody>
+  <ng-container *ngFor="let e of temp;  let i = index">
+    <tr *ngIf="e.name==srch || srch=='all' ">
+    <td>{{i+1}}</td>
+    <td>{{e.name}}</td>
+    <td>{{e.mail}}</td>
+    <td>{{e.contact}}</td>
+    <td>{{e.address}}</td>
+    <td>{{e.percent}}</td>
+  </tr>
+  </ng-container>
+</tbody>
+
+</table>
